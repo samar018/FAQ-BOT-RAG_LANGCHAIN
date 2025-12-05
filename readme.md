@@ -18,6 +18,12 @@ The bot decides confidence for each answer and escalates low-confidence question
 
 ---
 
+## **Workflow**
+
+![FAQ bot workflow](./workflow.png)
+
+---
+
 ## **Project Structure**
 
 ```
