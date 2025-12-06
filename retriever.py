@@ -34,7 +34,21 @@ class FAQRetriever:
         return dot / (mag1 * mag2)
 
     def search(self, query: str, top_k=3):
+        # Ensure query is a string and not empty
+        if not query or not isinstance(query, str):
+            return []
+        
+        query = query.strip()
+        if not query:
+            return []
+        
+        # Create vector from query
         q_vec = self._bow_vector(query)
+        
+        # If query vector is empty (no words), return empty results
+        if not q_vec:
+            return []
+        
         scored = []
 
         for line in self.lines:

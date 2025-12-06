@@ -1,3 +1,39 @@
-How do I reset the device? You can reset it by holding the power button for 10 seconds.
-How long does the battery last? The battery lasts up to 8 hours on normal usage.
-Does the device support Bluetooth? Yes, it supports Bluetooth 5.0.
+# Page 1: Device Basics
+
+Q: How do I reset the device?
+A: You can reset it by holding the power button for 10 seconds.
+
+Q: How long does the battery last?
+A: The battery lasts up to 8 hours on normal usage.
+
+Q: Does the device support Bluetooth?
+A: Yes, it supports Bluetooth 5.0.
+
+# Page 2: Firmware & Updates
+
+Q: How do I update the device firmware?
+A: Connect the device to Wi-Fi and check for updates in the settings menu.
+
+Q: Can I use the device while charging?
+A: Yes, the device can be used while it is charging, but battery performance may be affected.
+
+# Page 3: Connectivity & Pairing
+
+Q: Can I connect the device to multiple phones?
+A: Yes, it can be paired with up to 3 devices simultaneously.
+
+Q: How do I pair the device with my phone?
+A: Turn on Bluetooth, open the app, and follow the on-screen instructions to pair.
+
+# Page 4: Device Protection & Warranty
+
+Q: Is the device waterproof?
+A: The device is water-resistant up to 1 meter for 30 minutes (IP67 rating).
+
+Q: Does the device have a warranty?
+A: Yes, it comes with a 1-year manufacturer warranty.
+
+# Page 5: Charging
+
+Q: How do I charge the device?
+A: Use the provided USB-C cable and charger. It takes approximately 2 hours to fully charge.

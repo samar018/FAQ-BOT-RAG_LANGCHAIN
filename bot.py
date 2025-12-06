@@ -17,7 +17,29 @@ class FAQBot:
             return "low"
 
     def ask(self, query):
-        results = self.retriever.search(query)
+        # Ensure query is not empty
+        if not query or not query.strip():
+            return {
+                "answer_text": "Please provide a valid question.",
+                "confidence": {"score": 0.0, "label": "low"},
+                "source_reference": "",
+                "escalated_to_human": False,
+                "escalation_request_id": None
+            }
+        
+        # Search with the query
+        results = self.retriever.search(query.strip())
+        
+        # Check if results are empty
+        if not results or len(results) == 0:
+            return {
+                "answer_text": "No matching FAQ found.",
+                "confidence": {"score": 0.0, "label": "low"},
+                "source_reference": "",
+                "escalated_to_human": False,
+                "escalation_request_id": None
+            }
+        
         best_line, best_score = results[0]
 
         label = self.classify_confidence(best_score)
